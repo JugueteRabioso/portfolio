@@ -1,0 +1,171 @@
+/* Estilos generales */
+* {
+    font-family: Roboto,Arial;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del header */
+
+i{
+    font-size: 200%;
+}
+nav {
+    background-color: #ccc7c7;
+    color: white;
+    padding: 10px;
+}
+.div-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    
+}
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* Estilos del form */
+.seccion_form {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color: #007bff;
+
+}
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: #003750;
+    text-align: center;
+    }
+    .container {
+    max-width: 300; /* Define el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20; /* Agrega un poco de espacio alrededor del formulario */
+    border: 10; /* Agrega un borde al contenedor */
+    border-radius: 500; /* Agrega bordes redondeados al contenedor */
+    }
+    .form-group {
+    margin-bottom: 15px; /* Espacio entre cada input */
+    }
+    label {
+    margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+    width:200; /* Define el ancho máximo del input */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+    }
+    button {
+    /* Coloca estilos a tu botón */
+    }
+    button:hover {
+    background-color: #0056b3;
+    }
+    
+
+/* Estilos del footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+footer h3 {
+    margin-top: 0;
+}
+.fa-solid{
+    width: 50%; /* Define el ancho deseado */
+    height: auto;
+}
+.logo-img {
+    width: 5%; /* Define el ancho deseado */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+
+.imagen-pequena {
+    width: 150px; /* Define el ancho deseado */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    border-radius: 1000px; /* Define el radio de las esquinas para crear esquinas redondeadas */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor con esquinas redondeadas */
+    transition: transform 0.3s ease; /* Agrega una transición suave al efecto de zoom */
+}
+.imagen-baner{
+    width: 100%; /* Define el ancho deseado */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+.imagen-pequena:hover {
+    transform: scale(1.1); /* Aplica un zoom del 20% cuando se pasa el cursor sobre la imagen */
+}
+
+.contacto {
+    display: flex;
+}
+
+.boton-contacto {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.boton-contacto:hover {
+    background-color: #0056b3;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1; /* Asegura que el botón de WhatsApp esté en la parte superior */
+  }
+  
+  .whatsapp-float img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  
+  .whatsapp-float:hover {
+    background-color: #128c7e;
+  }
+  
+  @media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+
+
+
+
+  }
+  

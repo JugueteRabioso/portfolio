@@ -1,0 +1,201 @@
+/* Estilos generales */
+* {
+    font-family: Roboto,Arial;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del header */
+
+i{
+    font-size: 200%;
+}
+nav {
+    background-color: #ccc7c7;
+    color: white;
+    padding: 10px;
+}
+.div-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    
+}
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* Estilos del main */
+
+main {
+    padding: 0;
+}
+
+#sobre-mi{
+    display: flex;
+    align-items: center;
+    padding: 200;
+    margin: 200;
+}
+
+.tarjeta {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    max-width: 300px;
+    flex: 1;
+}
+
+.tarjetas-contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.tarjeta-imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+.tarjeta-titulo {
+    font-size: 1.5em;
+    margin: 16px 0;
+}
+.tarjeta-descripcion {
+    font-size: 1em;
+    margin: 16px 0;
+}
+.tarjeta-boton {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.tarjeta-boton:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos del footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+footer h3 {
+    margin-top: 0;
+}
+.fa-solid{
+    width: 50%; /* Define el ancho deseado */
+    height: auto;
+}
+.logo-img {
+    width: 5%; /* Define el ancho deseado */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+
+.imagen-pequena {
+    width: 150px; /* Define el ancho deseado */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    border-radius: 1000px; /* Define el radio de las esquinas para crear esquinas redondeadas */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del contenedor con esquinas redondeadas */
+    transition: transform 0.3s ease; /* Agrega una transición suave al efecto de zoom */
+}
+.imagen-baner{
+    width: 100%; /* Define el ancho deseado */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    margin: 0;
+    padding: 0;
+}
+.imagen-pequena:hover {
+    transform: scale(1.1); /* Aplica un zoom del 20% cuando se pasa el cursor sobre la imagen */
+}
+
+.contacto {
+    display: flex;
+}
+
+.boton-contacto {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.boton-contacto:hover {
+    background-color: #0056b3;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1; /* Asegura que el botón de WhatsApp esté en la parte superior */
+  }
+  
+  .whatsapp-float img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  
+  .whatsapp-float:hover {
+    background-color: #128c7e;
+  }
+  
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más
+    pequeñas */
+    body {
+    font-size: 16px;
+    }
+    .container {
+    width: 90%;
+    margin: 0 auto;
+    }
+    }
+    /* Estilos para pantallas más grandes (a partir de 769px) */
+
+    @media (min-width: 769px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más
+    grandes */
+    body {
+    font-size: 18px;
+    }
+    .container {
+    width: 80%;
+    margin: 0 auto;
+    }
+    }
